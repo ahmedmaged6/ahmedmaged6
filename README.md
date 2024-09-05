@@ -1,10 +1,78 @@
-<h1 align="center">Hey 👋, I'm Ahmed Maged</h1>
+<h1 align="center">
+  Hey <span class="wave" style="font-size: 50px">👋</span>, I'm Ahmed Maged
+</h1>
 
-###
+<p align="center">
+  <span class="cloud">☁️</span> Junior Cloud & DevOps Engineer
+  <span class="loop">♾️</span>
+</p>
 
-<p align="center">☁️ Junior Cloud & DevOps Engineer ♾️</p>
+<style>
+  .wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%;
+    font-size: 50px; /* Adjust size here */
+  }
 
-###
+  .loop {
+    display: inline-block;
+    animation: loop-animation 4s infinite linear;
+  }
+
+  .cloud {
+    display: inline-block;
+    animation: float-animation 3s infinite ease-in-out;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes loop-animation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes float-animation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+</style>
 
 <h2 align="left">About me</h2>
 
@@ -96,7 +164,7 @@
     height="40"
     alt="git logo"
   />
-  
+
   <img width="12" />
   <img
     src="https://cdn.simpleicons.org/redhat/EE0000"
@@ -109,7 +177,6 @@
     height="40"
     alt="linux logo"
   />
-
 </div>
 
 ###
