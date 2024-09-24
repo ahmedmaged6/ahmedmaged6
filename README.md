@@ -23,7 +23,7 @@
 
 <p align="left">
   📂 You can find my DevOps and Automation projects
-  <a href="https://github.com/ahmedmaged6?tab=repositories](https://github.com/ahmedmaged6/Devops_Projects">here</a>
+  <a href="https://github.com/ahmedmaged6/Devops_Projects">here</a>
 </p>
 
 ###
